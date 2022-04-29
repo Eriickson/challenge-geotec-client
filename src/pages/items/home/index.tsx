@@ -1,5 +1,11 @@
 import React from "react";
+import { MainContainer } from "../../../components";
+import { ResultsList } from "./ResultsList";
 
 export const ItemsPage = () => {
-  return <div>ItemsPage</div>;
+  return (
+    <MainContainer>
+      <ResultsList />
+    </MainContainer>
+  );
 };
