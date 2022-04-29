@@ -27,7 +27,7 @@ export const SearcherForm: FC<SearcherFormProps> = ({ onSubmit }) => {
   const { register, handleSubmit } = useForm<FormType>();
 
   return (
-    <chakra.form onSubmit={handleSubmit(onSubmit)} w="lg">
+    <chakra.form onSubmit={handleSubmit(onSubmit)}>
       <InputGroup>
         <Input
           pr="10"

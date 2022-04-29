@@ -3,10 +3,8 @@ import React from "react";
 import { FormType, SearcherForm } from "./form";
 
 export const Searcher = () => {
-  const { query, push } = useRouter();
+  const { push } = useRouter();
   async function onSubmit(values: FormType) {
-    console.log(values);
-
     push({ pathname: "/items", query: { search: values.search } });
   }
 
