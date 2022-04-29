@@ -26,7 +26,7 @@ export const ResultsList = () => {
               <Stack h="full" justifyContent="space-between">
                 <Box mb="3">
                   <Box mb="1">
-                    <Link href="">
+                    <Link href="/items/1">
                       <a>
                         <Text
                           fontSize="2xl"

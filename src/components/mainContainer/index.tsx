@@ -8,7 +8,7 @@ interface MainContainerProps {
 
 export const MainContainer: FC<MainContainerProps> = ({ children }) => {
   return (
-    <Box bgColor="gray.100">
+    <Box bgColor="gray.100" minH="100vh">
       <Box mb="5">
         <Header />
       </Box>
